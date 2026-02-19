@@ -21,7 +21,7 @@ const deployYourVotingContract: DeployFunction = async function (hre: HardhatRun
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
 
-  const ownerAddress = "0x464d110F5cBeE5A8D345F80C3950c12f4faBd55c";
+  const ownerAddress = "0x0AfFA7CCBFB0b91bBF30628A5D0c15208CECde75";
 
   /// checkpoint 6 //////
   // const verifierAddress = "0x0000000000000000000000000000000000000002"; // placeholder
